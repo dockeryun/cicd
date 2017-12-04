@@ -1,5 +1,8 @@
 # 配置文件
-  * wp_config.php
+  * devlops/cicd/config  脚本主要配置文件
+  * devlops/config/ 
+   * default.conf主机是网站配置文件
+   
 ## 开发需要修改的地方
 
 1、docker-compose.yaml
