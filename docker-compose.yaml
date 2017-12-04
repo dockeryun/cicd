@@ -1,0 +1,8 @@
+diy2015_wordpress_web:
+  image: "${image_name}"
+  volumes:
+    - "/etc/localtime:/etc/localtime"
+    - "/data/docker/logs/nginx:/var/log/nginx"
+  ports:
+    - "8100:8100"
+  restart: always

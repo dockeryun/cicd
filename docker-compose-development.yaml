@@ -1,0 +1,2 @@
+diy2015_wordpress_web:
+  build: .
